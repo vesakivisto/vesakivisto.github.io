@@ -1,0 +1,1 @@
+D:/GitHub/vesakivisto.github.io/portfolio/tmp/broccoli_merge_trees-input_base_path-hFNiAK6C.tmp/2/portfolio/tests/helpers/module-for-acceptance.jshint.lint-test.js
