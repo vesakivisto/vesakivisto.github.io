@@ -264,6 +264,44 @@ define('portfolio/mirage/config', ['exports'], function (exports) {
   exports['default'] = function () {
     this.namespace = '/api';
 
+    this.get('/projects', function () {
+      return {
+        data: [{
+          type: 'projects',
+          id: 'twitter',
+          attributes: {
+            title: 'Twitter Client',
+            description: 'A simple Twitter client using ASP.NET and C# utilizing the official Twitter REST API. Developed in 2016 for ASP.NET course at JAMK University of Applied Sciences.' + ' Users can sign in with their Twitter account, write & publish new tweets, favorite & reblog tweets and view profiles.',
+            image: '/assets/images/asp-net-twitter-client.png'
+          }
+        }, {
+          type: 'projects',
+          id: 'leagueoflegends',
+          attributes: {
+            title: 'League of Legends Player Search',
+            description: 'Developed in 2016 for back-end programming course at JAMK University of Applied Sciences, this website allows users to search League of Legends players based on their' + ' server and username. Utilizes the official API from Riot Games, it has MySQL database for storing static game data and recent games from searched players, and it has a simple admin' + ' panel for updating the database. Written in plain PHP, HTML5, CSS3 and MySQL.',
+            image: '/assets/images/php-league-search.png'
+          }
+        }, {
+          type: 'projects',
+          id: 'fractal',
+          attributes: {
+            title: 'Fractal Generator',
+            description: 'A project work developed for C++ basics course at JAMK University of Applied Sciences. I decided to create a simple fractal generator what you could run from terminal.' + ' This generator uses the logic from Lindenmayer system to generate the fractals and then saves the fractal to a local image file.',
+            image: '/assets/images/cpp-fractal.png'
+          }
+        }, {
+          type: 'projects',
+          id: '2048',
+          attributes: {
+            title: '2048 Clone',
+            description: 'My first larger programming project. Written in Java, I developed this 2048 clone in 2015 for Java basics course at JAMK University of Applied Sciences. The game has' + ' the same basic logic as the original and a highscore saving to local text file.',
+            image: '/assets/images/2048-clone.png'
+          }
+        }]
+      };
+    });
+
     this.get('/personal-infos', function () {
       return {
         data: [{
@@ -488,6 +526,13 @@ define('portfolio/models/personal-info', ['exports', 'ember-data'], function (ex
     description: _emberData['default'].attr()
   });
 });
+define('portfolio/models/project', ['exports', 'ember-data'], function (exports, _emberData) {
+  exports['default'] = _emberData['default'].Model.extend({
+    title: _emberData['default'].attr(),
+    description: _emberData['default'].attr(),
+    image: _emberData['default'].attr()
+  });
+});
 define('portfolio/models/skill', ['exports', 'ember-data'], function (exports, _emberData) {
   exports['default'] = _emberData['default'].Model.extend({
     items: _emberData['default'].attr()
@@ -537,7 +582,11 @@ define('portfolio/routes/index', ['exports', 'ember'], function (exports, _ember
   exports['default'] = _ember['default'].Route.extend({});
 });
 define('portfolio/routes/portfolio', ['exports', 'ember'], function (exports, _ember) {
-  exports['default'] = _ember['default'].Route.extend({});
+  exports['default'] = _ember['default'].Route.extend({
+    model: function model() {
+      return this.get('store').findAll('project');
+    }
+  });
 });
 define('portfolio/services/ajax', ['exports', 'ember-ajax/services/ajax'], function (exports, _emberAjaxServicesAjax) {
   Object.defineProperty(exports, 'default', {
@@ -560,7 +609,7 @@ define("portfolio/templates/index", ["exports"], function (exports) {
   exports["default"] = Ember.HTMLBars.template({ "id": "rL88tWUt", "block": "{\"statements\":[[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "portfolio/templates/index.hbs" } });
 });
 define("portfolio/templates/portfolio", ["exports"], function (exports) {
-  exports["default"] = Ember.HTMLBars.template({ "id": "p2abo8Sy", "block": "{\"statements\":[[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "portfolio/templates/portfolio.hbs" } });
+  exports["default"] = Ember.HTMLBars.template({ "id": "E2nIfwVF", "block": "{\"statements\":[[\"block\",[\"each\"],[[\"get\",[\"model\"]]],null,0]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[{\"statements\":[[\"text\",\"  \"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"row\"],[\"flush-element\"],[\"text\",\"\\n      \"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"four columns\"],[\"flush-element\"],[\"text\",\"\\n        \"],[\"open-element\",\"img\",[]],[\"dynamic-attr\",\"src\",[\"unknown\",[\"project\",\"image\"]],null],[\"static-attr\",\"width\",\"300\"],[\"flush-element\"],[\"close-element\"],[\"text\",\"\\n      \"],[\"close-element\"],[\"text\",\"\\n      \"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"eight columns\"],[\"flush-element\"],[\"text\",\"\\n        \"],[\"open-element\",\"h6\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"project\",\"title\"]],false],[\"close-element\"],[\"text\",\"\\n        \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"project\",\"description\"]],false],[\"close-element\"],[\"text\",\"\\n      \"],[\"close-element\"],[\"text\",\"\\n  \"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[\"project\"]}],\"hasPartials\":false}", "meta": { "moduleName": "portfolio/templates/portfolio.hbs" } });
 });
 define('portfolio/tests/mirage/mirage/config.jshint.lint-test', ['exports'], function (exports) {
   QUnit.module('JSHint | mirage/config.js');

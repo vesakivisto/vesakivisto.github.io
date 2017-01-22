@@ -143,6 +143,15 @@ define('portfolio/tests/models/personal-info.jshint.lint-test', ['exports'], fun
     assert.ok(true, 'models/personal-info.js should pass jshint.');
   });
 });
+define('portfolio/tests/models/project.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | models/project.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'models/project.js should pass jshint.');
+  });
+});
 define('portfolio/tests/models/skill.jshint.lint-test', ['exports'], function (exports) {
   'use strict';
 
@@ -314,6 +323,28 @@ define('portfolio/tests/unit/models/personal-info-test.jshint.lint-test', ['expo
   QUnit.test('should pass jshint', function (assert) {
     assert.expect(1);
     assert.ok(true, 'unit/models/personal-info-test.js should pass jshint.');
+  });
+});
+define('portfolio/tests/unit/models/project-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {
+
+  (0, _emberQunit.moduleForModel)('project', 'Unit | Model | project', {
+    // Specify the other units that are required for this test.
+    needs: []
+  });
+
+  (0, _emberQunit.test)('it exists', function (assert) {
+    var model = this.subject();
+    // let store = this.store();
+    assert.ok(!!model);
+  });
+});
+define('portfolio/tests/unit/models/project-test.jshint.lint-test', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint | unit/models/project-test.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(true, 'unit/models/project-test.js should pass jshint.');
   });
 });
 define('portfolio/tests/unit/models/skill-test', ['exports', 'ember-qunit'], function (exports, _emberQunit) {

@@ -1,6 +1,49 @@
 export default function() {
   this.namespace = '/api';
 
+  this.get('/projects', function() {
+    return {
+      data: [{
+        type: 'projects',
+        id: 'twitter',
+        attributes: {
+          title: 'Twitter Client',
+          description: 'A simple Twitter client using ASP.NET and C# utilizing the official Twitter REST API. Developed in 2016 for ASP.NET course at JAMK University of Applied Sciences.' +
+          ' Users can sign in with their Twitter account, write & publish new tweets, favorite & reblog tweets and view profiles.',
+          image: '/assets/images/asp-net-twitter-client.png'
+        }
+      }, {
+        type: 'projects',
+        id: 'leagueoflegends',
+        attributes: {
+          title: 'League of Legends Player Search',
+          description: 'Developed in 2016 for back-end programming course at JAMK University of Applied Sciences, this website allows users to search League of Legends players based on their' +
+          ' server and username. Utilizes the official API from Riot Games, it has MySQL database for storing static game data and recent games from searched players, and it has a simple admin' +
+          ' panel for updating the database. Written in plain PHP, HTML5, CSS3 and MySQL.',
+          image: '/assets/images/php-league-search.png'
+        }
+      }, {
+        type: 'projects',
+        id: 'fractal',
+        attributes: {
+          title: 'Fractal Generator',
+          description: 'A project work developed for C++ basics course at JAMK University of Applied Sciences. I decided to create a simple fractal generator what you could run from terminal.' +
+          ' This generator uses the logic from Lindenmayer system to generate the fractals and then saves the fractal to a local image file.',
+          image: '/assets/images/cpp-fractal.png'
+        }
+      }, {
+        type: 'projects',
+        id: '2048',
+        attributes: {
+          title: '2048 Clone',
+          description: 'My first larger programming project. Written in Java, I developed this 2048 clone in 2015 for Java basics course at JAMK University of Applied Sciences. The game has' +
+          ' the same basic logic as the original and a highscore saving to local text file.',
+          image: '/assets/images/2048-clone.png'
+        }
+      }]
+    };
+  });
+
   this.get('/personal-infos', function() {
     return {
       data: [{
