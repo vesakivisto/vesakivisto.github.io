@@ -24,6 +24,13 @@ export default function() {
           title: 'Place of residency',
           description: 'Jyväskylä'
         }
+      }, {
+        type: 'personal-infos',
+        id: 'email',
+        attributes: {
+          title: 'Email',
+          description: 'kivisto.vesku[at]gmail.com'
+        }
       }]
     };
   });
@@ -79,7 +86,7 @@ export default function() {
           title: 'Bachelor\'s Degree in Software Engineering',
           school: 'JAMK University of Applied Sciences',
           duration: '08/2014 -',
-          description: 'Studies focus on software development and consist of basics of multiple programming languages, scientific subjects, project works and basics of 3D modeling.' +
+          description: 'Studies focus on software development and consist of basics of multiple programming languages, scientific subjects, project works and basics of 3D modeling. ' +
                         'I aim to graduate during fall 2017.'
         }
       }, {
@@ -156,7 +163,7 @@ export default function() {
           }, {
             title: 'MySQL'
           }, {
-            title: 'Ember.js'
+            title: 'Ember'
           }, {
             title: 'Kaa'
           }, {
@@ -167,6 +174,18 @@ export default function() {
             title: 'WordPress'
           }, {
             title: 'Drupal'
+          }, {
+            title: 'MS Office'
+          }, {
+            title: 'Adobe Photoshop'
+          }, {
+            title: 'Cassandra'
+          }, {
+            title: 'Kaa'
+          }, {
+            title: 'JQuery'
+          }, {
+            title: 'Node.js'
           }]
         }
       }]

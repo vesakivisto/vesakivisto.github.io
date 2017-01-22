@@ -1,10 +1,9 @@
-<div class="container">
   <div class="row">
     <div class="twelve column">
       <h5>Personal info</h5>
       <hr>
       {{#each model.personalInfos as |info|}}
-        <p>{{info.title}} {{info.description}}</p>
+        <p class="cv-info"><span>{{info.title}}</span> <span>{{info.description}}</span></p>
       {{/each}}
 
       <h5>Work experience</h5>
@@ -31,19 +30,17 @@
       <h5>Languages</h5>
       <hr>
       {{#each model.languages as |language|}}
-        <p>{{language.title}} {{language.level}}</p>
-        {{#each language.notes as |note|}}
-          <p>{{note.text}}</p>
-        {{/each}}
+        <p class="cv-info"><span>{{language.title}}</span> <span>{{language.level}}</span></p>
       {{/each}}
 
       <h5>Technical skills</h5>
       <hr>
       {{#each model.skills as |skill|}}
+        <p>
         {{#each skill.items as |item|}}
-          <p>{{item.title}}</p>
+          <span class="skill">{{item.title}}</span>
         {{/each}}
+      </p>
       {{/each}}
     </div>
   </div>
-</div>

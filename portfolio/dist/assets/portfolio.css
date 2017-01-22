@@ -1,2 +1,61 @@
 @import "normalize.css";
-@import "skeleton.css"
+@import "skeleton.css";
+
+.container {
+  max-width: 800px;
+}
+
+.skill {
+  display: inline-block;
+  margin: 0 0.2em 0.5em 0;
+  color: #FFFFFF;
+  background-color: #093292;
+  padding: 7px;
+}
+
+.cv-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cv-info span:last-child {
+  text-align: right;
+}
+
+.nav {
+  display: flex;
+  position: fixed;
+  background-color: #FFF;
+  justify-content: flex-end;
+  top: 0;
+  z-index: 2;
+  width: 80%;
+  max-width: inherit;
+}
+
+.nav a {
+  display: inline-block;
+  margin: 1em;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #093292;
+}
+
+.banner {
+  height: 150px;
+}
+
+h5 {
+  margin-bottom: 0;
+}
+
+hr {
+  margin-top: 0.5em;
+  margin-bottom: 2rem;
+}
+
+h6 {
+  font-size: 1.25em;
+}

@@ -1,11 +1,6 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
-  /*
-  model() {
-    return this.get('store').findAll('education');
-  }
-  */
   model() {
     return Ember.RSVP.hash({
       personalInfos: this.store.findAll('personal-info'),
