@@ -45,7 +45,7 @@ define('portfolio/mirage/config', ['exports'], function (exports) {
             title: 'N4S@JAMK Challenge Factory',
             work: [{
               duration: '05/2016 - 07/2016',
-              description: 'Challenge Factory was a part of DIMECC Need of Speed program, which focuses on building a foundation for the success of Finnish software companies. ' + 'During my time at Challenge Factory I was a part of a team that developed a proof-of-concept of sewer measurement system to monitor water level and flow etc. ' + 'The work involved technologies and techniques such as Scrum, Java, Kaa, Git, Python, Cassandra and Raspberry Pi.'
+              description: 'Challenge Factory was a part of DIMECC Need of Speed program, which focuses on building a foundation for the success of Finnish software companies. ' + 'During my time at Challenge Factory I worked as a junior software developer as a part of a team that developed a proof-of-concept of sewer measurement ' + 'system to monitor water level and flow etc. The work involved technologies and techniques such as Scrum, Java, Kaa, Git, Python, Cassandra and Raspberry Pi.'
             }]
           }
         }, {
