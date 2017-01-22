@@ -55,3 +55,13 @@ hr {
 h6 {
   font-size: 1.25em;
 }
+
+.row {
+  margin-bottom: 4em;
+}
+
+img {
+  -webkit-box-shadow: 4px 4px 10px 0px rgba(120,120,120,1);
+  -moz-box-shadow: 4px 4px 10px 0px rgba(120,120,120,1);
+  box-shadow: 4px 4px 10px 0px rgba(120,120,120,1);
+}
