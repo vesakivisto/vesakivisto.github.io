@@ -1,1 +1,0 @@
-D:/GitHub2/vesakivisto.github.io/portfolio/tmp/creator-output_path-i75qkSyU.tmp/version.js
