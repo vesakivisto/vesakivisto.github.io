@@ -670,7 +670,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("portfolio/app")["default"].create({"name":"portfolio","version":"0.0.0+1f256711"});
+  require("portfolio/app")["default"].create({"name":"portfolio","version":"0.0.0+20363a3d"});
 }
 
 /* jshint ignore:end */
