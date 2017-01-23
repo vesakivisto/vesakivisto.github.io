@@ -1,0 +1,1 @@
+D:/GitHub2/vesakivisto.github.io/portfolio/tmp/funnel-input_base_path-rsNX0ZWJ.tmp/mixins/ajax-request.js
