@@ -143,7 +143,7 @@ img {
   img {
     display: flex;
     margin: 0 auto 3em auto;
-    max-width: 400px;
+    max-width: 300px;
   }
 }
 
