@@ -1,0 +1,82 @@
+<!-- ABOUT -->
+
+<div class="row">
+  <div class="twelve column">
+    <p>Hello World!</p>
+    <p>I'm Vesa Kivistö, an aspiring developer ready to conquer the world. I'm currently studying software engineering at JAMK University of Applied Sciences, Jyväskylä Finland.
+    I'm interested web, mobile and desktop developing, I have experience in full-stack development and I'm always looking forward to learning something new.</p>
+    <p>I've always been interested in information and communications technology as well as programming, which led to me starting to study software development at
+      Saimaa Vocational College Sampo. After graduation from SAMPO with a Bachelor's Degree and a Matriculation Examination Certificate in I started my studies
+      on software engineering at JAMK University of Applied Sciences. I have interest in applying for a Master's Degree and specializing in artificial intelligence
+      or machine learning later in my life, but I have no plans set in stone.</p>
+    <p>I spend my spare time usually by playing video games and listening to music. I also enjoy photographing and reading fantasy and sci-fi books, and once in a while
+      I enjoy taking a walk in nature to clear my mind. I'm still really new to photographing and it has been a slow start with that hobby, but I'm eager
+      to improve my photographing skills. Lately I've been trying to start personal programming projects to improve my programming skills.</p>
+  </div>
+</div>
+
+<!-- PROJECTS -->
+
+<div class="portfolio-header">
+<h5>Welcome! Here's my projects</h5>
+</div>
+{{#each model.projects as |project|}}
+  <div class="row portfolio-item">
+      <div class="five columns">
+        <img src={{project.image}} />
+      </div>
+      <div class="seven columns">
+        <h6>{{project.title}}</h6>
+        <p>{{project.description}}</p>
+      </div>
+  </div>
+{{/each}}
+
+<!-- EXPERIENCE -->
+
+<div class="row">
+  <div class="twelve column">
+    <h5>Personal info</h5>
+    <hr>
+    {{#each model.personalInfos as |info|}}
+      <p class="cv-info"><span>{{info.title}}</span> <span>{{info.description}}</span></p>
+    {{/each}}
+
+    <h5>Work experience</h5>
+    <hr>
+    {{#each model.workExperiences as |experience|}}
+      <h6>{{experience.title}}</h6>
+      {{#each experience.work as |work|}}
+        <p>{{work.duration}}</p>
+        <p>{{work.description}}</p>
+      {{/each}}
+      <p>{{experience.duration}}</p>
+      <p>{{experience.description}}</p>
+    {{/each}}
+
+    <h5>Education</h5>
+    <hr>
+    {{#each model.educations as |education|}}
+      <h6>{{education.title}}</h6>
+      <p>{{education.school}}</p>
+      <p>{{education.duration}}</p>
+      <p>{{education.description}}</p>
+    {{/each}}
+
+    <h5>Languages</h5>
+    <hr>
+    {{#each model.languages as |language|}}
+      <p class="cv-info"><span>{{language.title}}</span> <span>{{language.level}}</span></p>
+    {{/each}}
+
+    <h5>Technical skills</h5>
+    <hr>
+    {{#each model.skills as |skill|}}
+      <p>
+      {{#each skill.items as |item|}}
+        <span class="skill">{{item.title}}</span>
+      {{/each}}
+    </p>
+    {{/each}}
+  </div>
+</div>

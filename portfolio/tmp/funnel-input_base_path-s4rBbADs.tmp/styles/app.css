@@ -136,7 +136,7 @@ img {
   }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
   .content {
     width: 100%;
   }
@@ -144,5 +144,11 @@ img {
     display: flex;
     margin: 0 auto 3em auto;
     max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  img {
+    max-width: 300px;
   }
 }
