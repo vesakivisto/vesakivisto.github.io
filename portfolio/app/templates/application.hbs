@@ -1,13 +1,20 @@
-<div class="body">
-  <div class="container">
-    <div class="nav">
-      {{#link-to 'index'}}Home{{/link-to}}
+
+  <div class="nav">
+    <div class="container">
+      {{#link-to 'portfolio'}}Portfolio{{/link-to}}
       {{#link-to 'about'}}About{{/link-to}}
-      {{#link-to 'portfolio'}}Portfolio  {{/link-to}}
       {{#link-to 'cv'}}CV{{/link-to}}
+      <a href="https://github.com/vesakivisto" target="_blank">GitHub</a>
     </div>
-    <div class="banner">
-    </div>
-    {{outlet}}
   </div>
-</div>
+  <div class="content">
+
+    <div class="container">
+      <div class="banner">
+      </div>
+      {{outlet}}
+    </div>
+  </div>
+  <div class="footer">
+    &copy; Vesa Kivistö 2017
+  </div>

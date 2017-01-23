@@ -19,7 +19,7 @@ export default function() {
           title: 'League of Legends Player Search',
           description: 'Developed in 2016 for back-end programming course at JAMK University of Applied Sciences, this website allows users to search League of Legends players based on their' +
           ' server and username. Utilizes the official API from Riot Games, it has MySQL database for storing static game data and recent games from searched players, and it has a simple admin' +
-          ' panel for updating the database. Written in plain PHP, HTML5, CSS3 and MySQL.',
+          ' panel for updating the database manually. Written in plain PHP, HTML5, CSS3 and MySQL.',
           image: '/assets/images/php-league-search.png'
         }
       }, {
@@ -27,7 +27,7 @@ export default function() {
         id: 'fractal',
         attributes: {
           title: 'Fractal Generator',
-          description: 'A project work developed for C++ basics course at JAMK University of Applied Sciences. I decided to create a simple fractal generator what you could run from terminal.' +
+          description: 'A project work developed for C++ basics course at JAMK University of Applied Sciences. I decided to create a simple fractal generator that you could run from terminal.' +
           ' This generator uses the logic from Lindenmayer system to generate the fractals and then saves the fractal to a local image file.',
           image: '/assets/images/cpp-fractal.png'
         }

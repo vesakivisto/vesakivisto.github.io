@@ -1,12 +1,42 @@
 @import "normalize.css";
 @import "skeleton.css";
 
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #e1e8f0;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  min-height: 100%;
+}
+
+body > .ember-view {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.content {
+  width: 65%;
+  margin: 0 auto;
+  background-color: #FFF;
+  height: 100%;
+  flex: 1 0 auto;
+}
+
 .skill {
   display: inline-block;
   margin: 0 0.2em 0.5em 0;
   color: #FFFFFF;
   background-color: #093292;
   padding: 7px;
+}
+
+.skill:last-of-type {
+  margin-bottom: 2em;
 }
 
 .cv-info {
@@ -19,20 +49,24 @@
 }
 
 .nav {
-  display: flex;
   position: fixed;
-  background-color: #FFF;
-  justify-content: flex-end;
+  background-color: #c9c9c9;
   top: 0;
   z-index: 2;
-  width: 80%;
+  width: 100%;
   max-width: inherit;
+}
+
+.nav .container {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .nav a {
   display: inline-block;
   margin: 1em;
   text-decoration: none;
+  color: #89bdd3;
 }
 
 .nav a:hover {
@@ -40,7 +74,7 @@
 }
 
 .banner {
-  height: 150px;
+  height: 100px;
 }
 
 h5 {
@@ -49,11 +83,7 @@ h5 {
 
 hr {
   margin-top: 0.5em;
-  margin-bottom: 2rem;
-}
-
-h6 {
-  font-size: 1.25em;
+  margin-bottom: 2em;
 }
 
 .row {
@@ -64,4 +94,54 @@ img {
   -webkit-box-shadow: 4px 4px 10px 0px rgba(120,120,120,1);
   -moz-box-shadow: 4px 4px 10px 0px rgba(120,120,120,1);
   box-shadow: 4px 4px 10px 0px rgba(120,120,120,1);
+}
+
+.footer {
+  padding: 0.75em 0;
+  text-align: center;
+  background-color: #c9c9c9;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.portfolio-header h5 {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.portfolio-item:last-of-type {
+  margin-bottom: 8em;
+}
+
+#wrapper {
+  min-height: 100%;
+  overflow: auto;
+}
+
+img {
+  max-width: 350px;
+}
+
+@media (max-width: 1600px) {
+  img {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 1400px) {
+  img {
+    max-width: 200px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .content {
+    width: 100%;
+  }
+  img {
+    display: flex;
+    margin: 0 auto 3em auto;
+    max-width: 400px;
+  }
 }
