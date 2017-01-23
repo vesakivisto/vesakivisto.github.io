@@ -188,47 +188,45 @@ export default function() {
         id: 'skills',
         attributes: {
           items: [{
-            title: 'Java'
+            title: 'Adobe Photoshop'
+          }, {
+            title: 'C#'
           }, {
             title: 'C++'
           }, {
             title: 'CSS3'
           }, {
-            title: 'C#'
-          }, {
-            title: 'JavaScript'
-          }, {
-            title: 'HTML5'
-          }, {
-            title: 'Git'
-          }, {
-            title: 'PHP'
-          }, {
-            title: 'MySQL'
-          }, {
-            title: 'Ember'
-          }, {
-            title: 'Kaa'
-          }, {
-            title: 'Python'
-          }, {
-            title: 'Joomla'
-          }, {
-            title: 'WordPress'
+            title: 'Cassandra'
           }, {
             title: 'Drupal'
           }, {
-            title: 'MS Office'
+            title: 'Ember.js'
           }, {
-            title: 'Adobe Photoshop'
+            title: 'Git'
           }, {
-            title: 'Cassandra'
-          }, {
-            title: 'Kaa'
+            title: 'HTML5'
           }, {
             title: 'JQuery'
           }, {
+            title: 'Java'
+          }, {
+            title: 'JavaScript'
+          }, {
+            title: 'Joomla'
+          }, {
+            title: 'Kaa'
+          }, {
+            title: 'MS Office'
+          }, {
+            title: 'MySQL'
+          }, {
             title: 'Node.js'
+          }, {
+            title: 'PHP'
+          }, {
+            title: 'Python'
+          }, {
+            title: 'WordPress'
           }]
         }
       }]
