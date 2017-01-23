@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  background-color: #e1e8f0;
+  background-color: #3F5765;
   padding: 0;
   margin: 0;
   position: relative;
@@ -30,9 +30,9 @@ body > .ember-view {
 .skill {
   display: inline-block;
   margin: 0 0.2em 0.5em 0;
-  color: #FFFFFF;
-  background-color: #093292;
-  padding: 7px;
+  color: #FFF;
+  background-color: #E24708;
+  padding: 8px;
 }
 
 .skill:last-of-type {
@@ -50,11 +50,21 @@ body > .ember-view {
 
 .nav {
   position: fixed;
-  background-color: #c9c9c9;
+  background-color: #2B3A42;
   top: 0;
   z-index: 2;
   width: 100%;
   max-width: inherit;
+}
+
+.footer {
+  padding: 0.75em 0;
+  text-align: center;
+  background-color: #2B3A42;
+  color: #FFF;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .nav .container {
@@ -66,11 +76,11 @@ body > .ember-view {
   display: inline-block;
   margin: 1em;
   text-decoration: none;
-  color: #89bdd3;
+  color: #FFF;
 }
 
 .nav a:hover {
-  color: #093292;
+  color: #E24708;
 }
 
 .banner {
@@ -94,15 +104,6 @@ img {
   -webkit-box-shadow: 4px 4px 10px 0px rgba(120,120,120,1);
   -moz-box-shadow: 4px 4px 10px 0px rgba(120,120,120,1);
   box-shadow: 4px 4px 10px 0px rgba(120,120,120,1);
-}
-
-.footer {
-  padding: 0.75em 0;
-  text-align: center;
-  background-color: #c9c9c9;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 .portfolio-header h5 {
