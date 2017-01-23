@@ -442,47 +442,45 @@ define('portfolio/mirage/config', ['exports'], function (exports) {
           id: 'skills',
           attributes: {
             items: [{
-              title: 'Java'
+              title: 'Adobe Photoshop'
+            }, {
+              title: 'C#'
             }, {
               title: 'C++'
             }, {
               title: 'CSS3'
             }, {
-              title: 'C#'
-            }, {
-              title: 'JavaScript'
-            }, {
-              title: 'HTML5'
-            }, {
-              title: 'Git'
-            }, {
-              title: 'PHP'
-            }, {
-              title: 'MySQL'
-            }, {
-              title: 'Ember'
-            }, {
-              title: 'Kaa'
-            }, {
-              title: 'Python'
-            }, {
-              title: 'Joomla'
-            }, {
-              title: 'WordPress'
+              title: 'Cassandra'
             }, {
               title: 'Drupal'
             }, {
-              title: 'MS Office'
+              title: 'Ember.js'
             }, {
-              title: 'Adobe Photoshop'
+              title: 'Git'
             }, {
-              title: 'Cassandra'
-            }, {
-              title: 'Kaa'
+              title: 'HTML5'
             }, {
               title: 'JQuery'
             }, {
+              title: 'Java'
+            }, {
+              title: 'JavaScript'
+            }, {
+              title: 'Joomla'
+            }, {
+              title: 'Kaa'
+            }, {
+              title: 'MS Office'
+            }, {
+              title: 'MySQL'
+            }, {
               title: 'Node.js'
+            }, {
+              title: 'PHP'
+            }, {
+              title: 'Python'
+            }, {
+              title: 'WordPress'
             }]
           }
         }]
@@ -601,10 +599,10 @@ define('portfolio/services/ajax', ['exports', 'ember-ajax/services/ajax'], funct
   });
 });
 define("portfolio/templates/about", ["exports"], function (exports) {
-  exports["default"] = Ember.HTMLBars.template({ "id": "O7UGi6SV", "block": "{\"statements\":[[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"row\"],[\"flush-element\"],[\"text\",\"\\n  \"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"twelve column\"],[\"flush-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"text\",\"Hello World!\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"text\",\"I'm Vesa Kivistö, an aspiring developer ready to conquer the world. I'm currently studying software engineering at JAMK University of Applied Sciences, Jyväskylä Finland.\\n    I'm interested web, mobile and desktop developing, I have experience in full-stack development and I'm always looking forward to learning something new.\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"text\",\"I've always been interested in information and communications technology as well as programming, which led to me starting to study software development at\\n      Saimaa Vocational College Sampo. After graduation from SAMPO with a Bachelor's Degree and a Matriculation Examination Certificate in I started my studies\\n      on software engineering at JAMK University of Applied Sciences. I have interest in applying for a Master's Degree and specializing in artificial intelligence\\n      or machine learning later in my life, but I have no plans set in stone.\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"text\",\"I spend my spare time usually by playing video games and listening to music. I also enjoy photographing and reading fantasy and sci-fi books, and once in a while\\n      I enjoy taking a walk in nature to clear my mind. I'm still really new to photographing and it has been a slow start with that hobby, but I'm eager\\n      to improve my photographing skills. Lately I've been trying to start personal programming projects to improve my programming skills.\"],[\"close-element\"],[\"text\",\"\\n  \"],[\"close-element\"],[\"text\",\"\\n\"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "portfolio/templates/about.hbs" } });
+  exports["default"] = Ember.HTMLBars.template({ "id": "KnfMvGQk", "block": "{\"statements\":[[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"row\"],[\"flush-element\"],[\"text\",\"\\n  \"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"twelve column\"],[\"flush-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"text\",\"Hello World!\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"text\",\"I'm Vesa Kivistö, an aspiring developer ready to conquer the world. I'm currently studying software engineering at JAMK University of Applied Sciences, Jyväskylä Finland.\\n    I'm interested web, mobile and desktop developing, I have experience in full-stack development and I'm always looking forward to learning something new.\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"text\",\"I've always been interested in information and communications technology as well as programming, which led to me starting to study software development at\\n      Saimaa Vocational College Sampo. After graduation from Sampo with a Bachelor's Degree and a Matriculation Examination Certificate I started my studies\\n      on software engineering at JAMK University of Applied Sciences. I have interest in applying for a Master's Degree and specializing in artificial intelligence\\n      or machine learning later in my life, but I have no plans set in stone.\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"text\",\"I spend my spare time usually by playing video games and listening to music. I also enjoy photographing and reading fantasy and sci-fi books, and once in a while\\n      I enjoy taking a walk in nature to clear my mind. I'm still really new to photographing and it has been a slow start with that hobby, but I'm eager\\n      to improve my photographing skills. Lately I've been trying to start personal programming projects to improve my programming skills.\"],[\"close-element\"],[\"text\",\"\\n  \"],[\"close-element\"],[\"text\",\"\\n\"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "portfolio/templates/about.hbs" } });
 });
 define("portfolio/templates/application", ["exports"], function (exports) {
-  exports["default"] = Ember.HTMLBars.template({ "id": "MZHT7j7a", "block": "{\"statements\":[[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"nav\"],[\"flush-element\"],[\"text\",\"\\n  \"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"container\"],[\"flush-element\"],[\"text\",\"\\n    \"],[\"block\",[\"link-to\"],[\"portfolio\"],null,2],[\"text\",\"\\n    \"],[\"block\",[\"link-to\"],[\"about\"],null,1],[\"text\",\"\\n    \"],[\"block\",[\"link-to\"],[\"cv\"],null,0],[\"text\",\"\\n    \"],[\"open-element\",\"a\",[]],[\"static-attr\",\"href\",\"https://github.com/vesakivisto\"],[\"static-attr\",\"target\",\"_blank\"],[\"flush-element\"],[\"text\",\"GitHub\"],[\"close-element\"],[\"text\",\"\\n  \"],[\"close-element\"],[\"text\",\"\\n\"],[\"close-element\"],[\"text\",\"\\n\"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"content\"],[\"flush-element\"],[\"text\",\"\\n\\n  \"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"container\"],[\"flush-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"banner\"],[\"flush-element\"],[\"text\",\"\\n    \"],[\"close-element\"],[\"text\",\"\\n    \"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n  \"],[\"close-element\"],[\"text\",\"\\n\"],[\"close-element\"],[\"text\",\"\\n\"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"footer\"],[\"flush-element\"],[\"text\",\"\\n  © Vesa Kivistö 2017\\n\"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[{\"statements\":[[\"text\",\"CV\"]],\"locals\":[]},{\"statements\":[[\"text\",\"About\"]],\"locals\":[]},{\"statements\":[[\"text\",\"Portfolio\"]],\"locals\":[]}],\"hasPartials\":false}", "meta": { "moduleName": "portfolio/templates/application.hbs" } });
+  exports["default"] = Ember.HTMLBars.template({ "id": "3KniPTAt", "block": "{\"statements\":[[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"nav\"],[\"flush-element\"],[\"text\",\"\\n  \"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"container\"],[\"flush-element\"],[\"text\",\"\\n    \"],[\"block\",[\"link-to\"],[\"portfolio\"],null,2],[\"text\",\"\\n    \"],[\"block\",[\"link-to\"],[\"about\"],null,1],[\"text\",\"\\n    \"],[\"block\",[\"link-to\"],[\"cv\"],null,0],[\"text\",\"\\n    \"],[\"open-element\",\"a\",[]],[\"static-attr\",\"href\",\"https://github.com/vesakivisto\"],[\"static-attr\",\"target\",\"_blank\"],[\"flush-element\"],[\"text\",\"GitHub\"],[\"close-element\"],[\"text\",\"\\n  \"],[\"close-element\"],[\"text\",\"\\n\"],[\"close-element\"],[\"text\",\"\\n\"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"content\"],[\"flush-element\"],[\"text\",\"\\n\\n  \"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"container\"],[\"flush-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"banner\"],[\"flush-element\"],[\"text\",\"\\n    \"],[\"close-element\"],[\"text\",\"\\n    \"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n  \"],[\"close-element\"],[\"text\",\"\\n\"],[\"close-element\"],[\"text\",\"\\n\"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"footer\"],[\"flush-element\"],[\"text\",\"\\n  © Vesa Kivistö 2017\\n\"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[{\"statements\":[[\"text\",\"CV\"]],\"locals\":[]},{\"statements\":[[\"text\",\"About me\"]],\"locals\":[]},{\"statements\":[[\"text\",\"Portfolio\"]],\"locals\":[]}],\"hasPartials\":false}", "meta": { "moduleName": "portfolio/templates/application.hbs" } });
 });
 define("portfolio/templates/cv", ["exports"], function (exports) {
   exports["default"] = Ember.HTMLBars.template({ "id": "vDKXQtZk", "block": "{\"statements\":[[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"row\"],[\"flush-element\"],[\"text\",\"\\n  \"],[\"open-element\",\"div\",[]],[\"static-attr\",\"class\",\"twelve column\"],[\"flush-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"h5\",[]],[\"flush-element\"],[\"text\",\"Personal info\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"hr\",[]],[\"flush-element\"],[\"close-element\"],[\"text\",\"\\n\"],[\"block\",[\"each\"],[[\"get\",[\"model\",\"personalInfos\"]]],null,6],[\"text\",\"\\n    \"],[\"open-element\",\"h5\",[]],[\"flush-element\"],[\"text\",\"Work experience\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"hr\",[]],[\"flush-element\"],[\"close-element\"],[\"text\",\"\\n\"],[\"block\",[\"each\"],[[\"get\",[\"model\",\"workExperiences\"]]],null,5],[\"text\",\"\\n    \"],[\"open-element\",\"h5\",[]],[\"flush-element\"],[\"text\",\"Education\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"hr\",[]],[\"flush-element\"],[\"close-element\"],[\"text\",\"\\n\"],[\"block\",[\"each\"],[[\"get\",[\"model\",\"educations\"]]],null,3],[\"text\",\"\\n    \"],[\"open-element\",\"h5\",[]],[\"flush-element\"],[\"text\",\"Languages\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"hr\",[]],[\"flush-element\"],[\"close-element\"],[\"text\",\"\\n\"],[\"block\",[\"each\"],[[\"get\",[\"model\",\"languages\"]]],null,2],[\"text\",\"\\n    \"],[\"open-element\",\"h5\",[]],[\"flush-element\"],[\"text\",\"Technical skills\"],[\"close-element\"],[\"text\",\"\\n    \"],[\"open-element\",\"hr\",[]],[\"flush-element\"],[\"close-element\"],[\"text\",\"\\n\"],[\"block\",[\"each\"],[[\"get\",[\"model\",\"skills\"]]],null,1],[\"text\",\"  \"],[\"close-element\"],[\"text\",\"\\n\"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[{\"statements\":[[\"text\",\"        \"],[\"open-element\",\"span\",[]],[\"static-attr\",\"class\",\"skill\"],[\"flush-element\"],[\"append\",[\"unknown\",[\"item\",\"title\"]],false],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[\"item\"]},{\"statements\":[[\"text\",\"      \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"text\",\"\\n\"],[\"block\",[\"each\"],[[\"get\",[\"skill\",\"items\"]]],null,0],[\"text\",\"    \"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[\"skill\"]},{\"statements\":[[\"text\",\"      \"],[\"open-element\",\"p\",[]],[\"static-attr\",\"class\",\"cv-info\"],[\"flush-element\"],[\"open-element\",\"span\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"language\",\"title\"]],false],[\"close-element\"],[\"text\",\" \"],[\"open-element\",\"span\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"language\",\"level\"]],false],[\"close-element\"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[\"language\"]},{\"statements\":[[\"text\",\"      \"],[\"open-element\",\"h6\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"education\",\"title\"]],false],[\"close-element\"],[\"text\",\"\\n      \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"education\",\"school\"]],false],[\"close-element\"],[\"text\",\"\\n      \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"education\",\"duration\"]],false],[\"close-element\"],[\"text\",\"\\n      \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"education\",\"description\"]],false],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[\"education\"]},{\"statements\":[[\"text\",\"        \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"work\",\"duration\"]],false],[\"close-element\"],[\"text\",\"\\n        \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"work\",\"description\"]],false],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[\"work\"]},{\"statements\":[[\"text\",\"      \"],[\"open-element\",\"h6\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"experience\",\"title\"]],false],[\"close-element\"],[\"text\",\"\\n\"],[\"block\",[\"each\"],[[\"get\",[\"experience\",\"work\"]]],null,4],[\"text\",\"      \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"experience\",\"duration\"]],false],[\"close-element\"],[\"text\",\"\\n      \"],[\"open-element\",\"p\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"experience\",\"description\"]],false],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[\"experience\"]},{\"statements\":[[\"text\",\"      \"],[\"open-element\",\"p\",[]],[\"static-attr\",\"class\",\"cv-info\"],[\"flush-element\"],[\"open-element\",\"span\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"info\",\"title\"]],false],[\"close-element\"],[\"text\",\" \"],[\"open-element\",\"span\",[]],[\"flush-element\"],[\"append\",[\"unknown\",[\"info\",\"description\"]],false],[\"close-element\"],[\"close-element\"],[\"text\",\"\\n\"]],\"locals\":[\"info\"]}],\"hasPartials\":false}", "meta": { "moduleName": "portfolio/templates/cv.hbs" } });
@@ -672,7 +670,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("portfolio/app")["default"].create({"name":"portfolio","version":"0.0.0+d610b194"});
+  require("portfolio/app")["default"].create({"name":"portfolio","version":"0.0.0+1f256711"});
 }
 
 /* jshint ignore:end */
