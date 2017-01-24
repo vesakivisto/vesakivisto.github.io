@@ -1,1 +1,0 @@
-D:/GitHub2/vesakivisto.github.io/portfolio/node_modules/ember-data/addon/setup-container.js

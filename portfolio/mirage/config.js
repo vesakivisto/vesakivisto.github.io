@@ -9,7 +9,7 @@ export default function() {
         attributes: {
           title: 'Twitter Client',
           description: 'A simple Twitter client using ASP.NET and C# utilizing the official Twitter REST API. Developed in 2016 for ASP.NET course at JAMK University of Applied Sciences.' +
-          ' Users can sign in with their Twitter account, write & publish new tweets, favorite & reblog tweets and view profiles.',
+          ' Users can sign in with their Twitter account, write & publish new tweets, favorite & retweet tweets and view profiles.',
           image: '/assets/images/asp-net-twitter-client.png'
         }
       }, {
@@ -27,8 +27,8 @@ export default function() {
         id: 'fractal',
         attributes: {
           title: 'Fractal Generator',
-          description: 'A project work developed for C++ basics course at JAMK University of Applied Sciences. I decided to create a simple fractal generator that you could run from terminal.' +
-          ' This generator uses the logic from Lindenmayer system to generate the fractals and then saves the fractal to a local image file.',
+          description: 'A project work developed for C++ basics course at JAMK University of Applied Sciences in 2015. I decided to create a simple fractal generator that you could run from terminal.' +
+          ' This generator uses the logic from Lindenmayer system to generate the fractal and then saves the fractal to a local image file.',
           image: '/assets/images/cpp-fractal.png'
         }
       }, {
