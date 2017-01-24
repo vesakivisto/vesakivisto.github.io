@@ -151,4 +151,7 @@ img {
   img {
     max-width: 300px;
   }
+  .nav {
+    font-size: 75%;
+  }
 }
