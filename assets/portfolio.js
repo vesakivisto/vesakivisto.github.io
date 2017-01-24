@@ -271,7 +271,7 @@ define('portfolio/mirage/config', ['exports'], function (exports) {
           id: 'twitter',
           attributes: {
             title: 'Twitter Client',
-            description: 'A simple Twitter client using ASP.NET and C# utilizing the official Twitter REST API. Developed in 2016 for ASP.NET course at JAMK University of Applied Sciences.' + ' Users can sign in with their Twitter account, write & publish new tweets, favorite & reblog tweets and view profiles.',
+            description: 'A simple Twitter client using ASP.NET and C# utilizing the official Twitter REST API. Developed in 2016 for ASP.NET course at JAMK University of Applied Sciences.' + ' Users can sign in with their Twitter account, write & publish new tweets, favorite & retweet tweets and view profiles.',
             image: '/assets/images/asp-net-twitter-client.png'
           }
         }, {
@@ -287,7 +287,7 @@ define('portfolio/mirage/config', ['exports'], function (exports) {
           id: 'fractal',
           attributes: {
             title: 'Fractal Generator',
-            description: 'A project work developed for C++ basics course at JAMK University of Applied Sciences. I decided to create a simple fractal generator that you could run from terminal.' + ' This generator uses the logic from Lindenmayer system to generate the fractals and then saves the fractal to a local image file.',
+            description: 'A project work developed for C++ basics course at JAMK University of Applied Sciences in 2015. I decided to create a simple fractal generator that you could run from terminal.' + ' This generator uses the logic from Lindenmayer system to generate the fractal and then saves the fractal to a local image file.',
             image: '/assets/images/cpp-fractal.png'
           }
         }, {
@@ -670,7 +670,7 @@ catch(err) {
 /* jshint ignore:start */
 
 if (!runningTests) {
-  require("portfolio/app")["default"].create({"name":"portfolio","version":"0.0.0+849d481a"});
+  require("portfolio/app")["default"].create({"name":"portfolio","version":"0.0.0+e0904708"});
 }
 
 /* jshint ignore:end */
