@@ -1,1 +1,0 @@
-D:/GitHub2/vesakivisto.github.io/portfolio/tmp/broccoli_merge_trees-input_base_path-63WOj10i.tmp/11/modules/ember-inflector/lib/helpers/singularize.js

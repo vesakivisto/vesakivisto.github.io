@@ -37,7 +37,7 @@ export default function() {
         attributes: {
           title: '2048 Clone',
           description: 'My first larger programming project. Written in Java, I developed this 2048 clone in 2015 for Java basics course at JAMK University of Applied Sciences. The game has' +
-          ' the same basic logic as the original and a highscore saving to local text file.',
+          ' the same basic logic as the original and a high score saving to local text file.',
           image: '/assets/images/2048-clone.png'
         }
       }]
@@ -72,7 +72,7 @@ export default function() {
         id: 'email',
         attributes: {
           title: 'Email',
-          description: 'kivisto.vesku[at]gmail.com'
+          description: 'kivisto.vesku@gmail.com'
         }
       }]
     };
@@ -88,7 +88,7 @@ export default function() {
           work: [{
             duration: '05/2016 - 07/2016',
             description: 'Challenge Factory was a part of DIMECC Need of Speed program, which focuses on building a foundation for the success of Finnish software companies. ' +
-                          'During my time at Challenge Factory I worked as a junior software developer as a part of a team that developed a proof-of-concept of sewer measurement ' +
+                          'During my time at Challenge Factory, I worked as a junior software developer as a part of a team that developed a proof-of-concept of sewer measurement ' +
                           'system to monitor water level and flow etc. The work involved technologies and techniques such as Scrum, Java, Kaa, Git, Python, Cassandra and Raspberry Pi.'
           }]
         }
@@ -108,9 +108,9 @@ export default function() {
         attributes: {
           title: 'Taipalsaari municipality',
           work: [{
-            duration: '03/2013 - 07/2013',
+            duration: '06/2013 - 07/2013',
             description: 'I continued my previous web development work at Taipalsaari municipality during summer. This work involved technologies such as HTML5, CSS3 and Drupal. ' +
-                          'On the side I did workstation installations and updates.'
+                          'On the side, I did workstation installations and updates.'
           }, {
             duration: '10/2012 - 12/2012',
             description: 'At Taipalsaari municipality I worked as a web developer trainee developing their new website. This work involved technologies such as HTML5, CSS3 and Drupal.'
@@ -148,7 +148,7 @@ export default function() {
           title: 'Finnish Matriculation Examination',
           school: 'Lauritsala High School for Adults',
           duration: '08/2011 - 06/2014',
-          description: ''
+          description: 'I completed matriculation examination with mathematics, English, Swedish and Finnish as subjects.'
         }
       }]
     };

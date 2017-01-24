@@ -1,1 +1,0 @@
-{"modulePrefix":"portfolio","environment":"development","rootURL":"/","locationType":"hash","EmberENV":{"FEATURES":{},"EXTEND_PROTOTYPES":{"Date":false}},"APP":{"name":"portfolio","version":"0.0.0+6143fe05"},"ember-cli-mirage":{"usingProxy":false,"useDefaultPassthroughs":true},"exportApplicationGlobal":true}
