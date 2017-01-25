@@ -1,0 +1,1 @@
+D:/GitHub2/vesakivisto.github.io/portfolio/tmp/creator-output_path-LtGteEku.tmp/version.js

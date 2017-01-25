@@ -17,9 +17,9 @@ export default function() {
         id: 'leagueoflegends',
         attributes: {
           title: 'League of Legends Player Search',
-          description: 'Developed in 2016 for back-end programming course at JAMK University of Applied Sciences, this website allows users to search League of Legends players based on their' +
-          ' server and username. Utilizes the official API from Riot Games, it has MySQL database for storing static game data and recent games from searched players, and it has a simple admin' +
-          ' panel for updating the database manually. Written in plain PHP, HTML5, CSS3 and MySQL.',
+          description: 'Developed in 2016 for back-end programming course at JAMK University of Applied Sciences, this application allows users to search League of Legends players.' +
+          ' Utilizes the official API from Riot Games, it has MySQL database for storing static game data and recent games from searched players, and it has a simple admin' +
+          ' panel for updating the database manually. Written in plain PHP, HTML5 and CSS3. I also wrote this application with C# for C# programming course.',
           image: '/assets/images/php-league-search.png'
         }
       }, {
@@ -58,14 +58,14 @@ export default function() {
         id: 'birthdate',
         attributes: {
           title: 'Born',
-          description: 'March 19 1995, Taipalsaari'
+          description: 'March 19 1995, Taipalsaari, Finland'
         }
       }, {
         type: 'personal-infos',
         id: 'residency',
         attributes: {
           title: 'Place of residency',
-          description: 'Jyväskylä'
+          description: 'Jyväskylä, Finland'
         }
       }, {
         type: 'personal-infos',
