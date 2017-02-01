@@ -474,6 +474,8 @@ define('portfolio/mirage/config', ['exports'], function (exports) {
             }, {
               title: 'MySQL'
             }, {
+              title: '.NET'
+            }, {
               title: 'Node.js'
             }, {
               title: 'PHP'
