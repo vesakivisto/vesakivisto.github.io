@@ -1,1 +1,0 @@
-D:/GitHub/vesakivisto.github.io/portfolio/app/resolver.js
