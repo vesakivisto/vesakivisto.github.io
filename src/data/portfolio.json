@@ -1,0 +1,26 @@
+[
+  {
+    "key": "twitter",
+    "title": "Twitter Client",
+    "description": "A simple Twitter client using ASP.NET and C# utilizing the official Twitter REST API. Developed in 2016 for ASP.NET course at JAMK University of Applied Sciences. Users can sign in with their Twitter account, write & publish new tweets, favorite & retweet tweets and view profiles.",
+    "image": "asp-net-twitter-client.png"
+  },
+  {
+    "key": "leagueoflegends",
+    "title": "League of Legends Player Search",
+    "description": "Developed in 2016 for back-end programming course at JAMK University of Applied Sciences, this application allows users to search League of Legends players. Utilizes the official API from Riot Games, it has MySQL database for storing static game data and recent games from searched players, and it has a simple admin panel for updating the database manually. Written in plain PHP, HTML5 and CSS3. I also wrote this application with C# for C# programming course.",
+    "image": "php-league-search.png"
+  },
+  {
+    "key": "fractal",
+    "title": "Fractal Generator",
+    "description": "A project work developed for C++ basics course at JAMK University of Applied Sciences in 2015. I decided to create a simple fractal generator that you could run from terminal. This generator uses the logic from Lindenmayer system to generate the fractal and then saves the fractal to a local image file.",
+    "image": "cpp-fractal.png"
+  },
+  {
+    "key": "2048",
+    "title": "2048 Clone",
+    "description": "My first larger programming project. Written in Java, I developed this 2048 clone in 2015 for Java basics course at JAMK University of Applied Sciences. The game has the same basic logic as the original and a high score saving to local text file.",
+    "image": "2048-clone.png"
+  }
+]
