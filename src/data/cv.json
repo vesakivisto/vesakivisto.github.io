@@ -5,11 +5,6 @@
       "description": "Vesa Kivistö"
     },
     {
-      "key": "birthdate",
-      "title": "Born",
-      "description": "March 19 1995, Taipalsaari, Finland"
-    },
-    {
       "key": "residency",
       "title": "Place of residency",
       "description": "Jyväskylä, Finland"
@@ -21,22 +16,31 @@
     }
   ],
   "workExperience": [{
+      "key": "jamk",
+      "title": "JAMK University of Applied Sciences",
+      "work": [{
+        "title": "Project Worker",
+        "duration": "11/2018 - 10/2019",
+        "description": "I'm, completing my non-military service at JAMK University of Applied Sciences. My work consists of studying Docker, Google Cloud and DevOps tools. During the summer I am a part of WIMMA Lab as a mentor."
+      }]
+    },
+    {
       "key": "protacon",
       "title": "Protacon Solutions Oy",
       "work": [{
         "title": "Software Developer",
-        "duration": "01/2018 - Present",
-        "description": "After my graduation from JAMK University of Appliec Sciences in December 2017 I continued to work at Protacon Solutions Oy as a software developer."
+        "duration": "01/2018 - 10/2018",
+        "description": "After my graduation from JAMK University of Applied Sciences in December 2017 I continued to work at Protacon Solutions Oy as a software developer."
       },
       {
-        "title": "Thesis Worked",
+        "title": "Thesis Worker",
         "duration": "10/2017 - 12/2017",
         "description": "I worked on my Bachelor's Degree thesis at Protacon Solutions Oy during the end of my apprenticeship. The thesis was written based on a client project I was a part of."
       },
       {
         "title": "Junior Software Developer",
         "duration": "03/2017 - 10/2017",
-        "description": "As a Software Developer Trainee at Protacon Solutions Oy I worked in various clients project using technologies such as PHP, Symfony, AngularJS, Angular and TypeScript. Agile software developments methods Scrum and Kanban were a great part during my trainee period."
+        "description": "As a Software Developer Trainee at Protacon Solutions Oy I worked in various client project using technologies such as PHP, Symfony, AngularJS, Angular and TypeScript. Agile software developments methods Scrum and Kanban were a great part during my trainee period."
       }]
     },
     {
@@ -110,11 +114,15 @@
       "level": "Basic"
     }
   ],
-  "skills": [{
+  "skills": [
+    {
       "title": "Angular"
     },
     {
-        "title": "AngularJS"
+      "title": "AngularJS"
+    },
+    {
+      "title": "ASP.NET"
     },
     {
       "title": "C#"
@@ -123,10 +131,13 @@
       "title": "CSS3"
     },
     {
-      "title": "Drupal"
+      "title": "Docker"
     },
     {
       "title": "Git"
+    },
+    {
+      "title": "GCP"
     },
     {
       "title": "HTML5"
@@ -138,19 +149,13 @@
       "title": "JavaScript"
     },
     {
-      "title": "Joomla"
+      "title": "Kubernetes"
     },
     {
-      "title": "Material Design"
-    },
-    {
-      "title": "MS Office"
+      "title": "MongoDB"
     },
     {
       "title": "MySQL"
-    },
-    {
-      "title": ".NET"
     },
     {
       "title": "Node.js"
@@ -159,10 +164,13 @@
       "title": "PHP"
     },
     {
+      "title": "PostgreSQL"
+    },
+    {
       "title": "Python"
     },
     {
-      "title": "React"
+      "title": "React.js"
     },
     {
       "title": "SASS"
@@ -172,9 +180,6 @@
     },
     {
       "title": "TypeScript"
-    },
-    {
-      "title": "WordPress"
     }
   ]
 }
