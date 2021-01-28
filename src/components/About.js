@@ -15,8 +15,7 @@ class About extends React.Component {
             I'm always looking forward to learning something new.</p>
           <p>I've always been interested in information and communications technology as well as programming, which led to me starting to study software development at
             Saimaa Vocational College Sampo. After graduation from Sampo with a Vocational Qualification and a Matriculation Examination Certificate, I started my studies in
-            software engineering at JAMK University of Applied Sciences, from which I graduated in December 2017 with a Bachelor's Degree. I plan on studying data analytics and machine
-            learning in 2020.</p>
+            software engineering at JAMK University of Applied Sciences, from which I graduated in December 2017 with a Bachelor's Degree.</p>
           <p>I spend my spare time usually by playing video games and listening to music. Lately I've picked up playing piano as a hobby.
             Other than that, I also enjoy reading fantasy and sci-fi books and taking walks to clear my mind.</p>
         </div>
