@@ -16,12 +16,21 @@
     }
   ],
   "workExperience": [{
+      "key": "digia",
+      "title": "Digia Oyj",
+      "work": [{
+        "title": "Software Developer",
+        "duration": "11/2019 - present",
+        "description": "Software developer in a somewhat large project. First actual experience from React. Noteworthy tasks are upgrading React version for the aforementioned project and migrating staging and production environments to AWS."
+      }]
+    },
+    {
       "key": "jamk",
       "title": "JAMK University of Applied Sciences",
       "work": [{
         "title": "Project Worker",
         "duration": "11/2018 - 10/2019",
-        "description": "I'm, completing my non-military service at JAMK University of Applied Sciences. My work consists of studying Docker, Google Cloud and DevOps tools. During the summer I am a part of WIMMA Lab as a mentor."
+        "description": "I completed my non-military service at JAMK University of Applied Sciences. My work consisted of studying Docker, Google Cloud and DevOps tools. During the summer I was a part of WIMMA Lab as a mentor."
       }]
     },
     {
@@ -119,16 +128,19 @@
       "title": "Angular"
     },
     {
-      "title": "AngularJS"
+      "title": "ASP.NET"
     },
     {
-      "title": "ASP.NET"
+      "title": "AWS"
     },
     {
       "title": "C#"
     },
     {
-      "title": "CSS3"
+      "title": "CI/CD"
+    },
+    {
+      "title": "DevOps"
     },
     {
       "title": "Docker"
@@ -137,25 +149,25 @@
       "title": "Git"
     },
     {
-      "title": "GCP"
-    },
-    {
-      "title": "HTML5"
-    },
-    {
-      "title": "Java"
+      "title": "Google Cloud"
     },
     {
       "title": "JavaScript"
     },
     {
+      "title": "Jenkins"
+    },
+    {
+      "title": "Jira"
+    },
+    {
+      "title": "Kanban"
+    },
+    {
       "title": "Kubernetes"
     },
     {
-      "title": "MongoDB"
-    },
-    {
-      "title": "MySQL"
+      "title": "LESS"
     },
     {
       "title": "Node.js"
@@ -170,13 +182,13 @@
       "title": "Python"
     },
     {
-      "title": "React.js"
+      "title": "React"
     },
     {
       "title": "SASS"
     },
     {
-      "title": "Symfony"
+      "title": "Scrum"
     },
     {
       "title": "TypeScript"
